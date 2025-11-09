@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Dilip Ratadia</title>
+  <meta name="description" content="Simple, minimal, and future‑focused privacy policy for apps and games developed by Dilip Ratadia." />
+  <meta name="theme-color" content="#0b0f14" />
+  <meta property="og:title" content="Privacy Policy — Dilip Ratadia" />
+  <meta property="og:description" content="Simple, minimal, and future‑focused privacy policy for apps and games by Dilip Ratadia." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --panel: #0f1720;
+      --muted: #8aa0b6;
+      --text: #d9e3ee;
+      --accent: #5be3ff;
+      --accent-2: #6a7dff;
+      --ring: 32, 202, 255;
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: radial-gradient(1200px 600px at 10% -10%, rgba(91,227,255,0.09), transparent),
+                  radial-gradient(1000px 700px at 110% 0%, rgba(106,125,255,0.07), transparent),
+                  var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      line-height: 1.65;
+      letter-spacing: .2px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+    .brand { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 28px; }
+    .dot {
+      width: 12px; height: 12px; border-radius: 50%;
+      background: conic-gradient(from 120deg, var(--accent), var(--accent-2));
+      box-shadow: 0 0 24px rgba(var(--ring), .6), 0 0 6px rgba(var(--ring), .9) inset;
+      margin-top: 6px; flex: 0 0 12px;
+    }
+    h1 { font-size: clamp(28px, 5vw, 40px); margin: 0; letter-spacing: .3px; }
+    .tag {
+      display: inline-flex; align-items: center; gap: .6ch;
+      padding: 6px 12px; border-radius: 999px;
+      background: linear-gradient( to right, rgba(91,227,255,.14), rgba(106,125,255,.14) );
+      border: 1px solid rgba(91,227,255,.25);
+      color: var(--text); font-size: 13px; margin: 10px 0 0; line-height: 1; align-self: flex-start;
+    }
+    .card {
+      background: color-mix(in srgb, var(--panel) 85%, transparent);
+      border: 1px solid rgba(120, 180, 255, 0.12);
+      border-radius: 16px; padding: 28px; box-shadow: 0 6px 28px rgba(0,0,0,.35);
+      backdrop-filter: blur(6px);
+    }
+    .lead { color: var(--muted); font-size: 17px; margin-top: 8px; }
+    h2 { font-size: clamp(20px, 3.6vw, 24px); margin: 28px 0 10px; }
+    h3 { font-size: 17px; margin: 22px 0 6px; color: var(--text); }
+    p { margin: 10px 0; }
+    ul { margin: 6px 0 14px 1.2rem; }
+    li { margin: 6px 0; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 40px; font-size: 14px; color: var(--muted); }
+    .rule { height: 1px; background: linear-gradient(90deg, transparent, rgba(120,180,255,.35), transparent); margin: 26px 0; border: 0; }
+    .toc { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px; margin: 14px 0 6px; }
+    .toc a { display: block; padding: 10px 12px; border-radius: 12px; border: 1px solid rgba(120,180,255,.16); background: rgba(255,255,255,.02); }
+    .caps { text-transform: uppercase; letter-spacing: .12em; font-size: 12px; color: var(--muted); }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  .title-block{display:flex;flex-direction:column}.title-block h1{margin:0;line-height:1.1}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <div class="title-block">
+        <h1>Privacy Policy</h1>
+        <div class="tag"><span class="caps">Developer</span> <strong>Dilip Ratadia</strong></div>
+      </div>
+    </header>
+
+    <section class="card" aria-label="Intro">
+      <p class="lead"><span class="caps">Effective Date</span>: <span class="mono">November 9, 2025</span></p>
+      <p>We respect your privacy. This policy explains what information our apps and games may collect, how it is used, and the choices you have. This page replaces any prior privacy page associated with previous developers or entities.</p>
+    </section>
+
+    <hr class="rule" />
+
+    <nav class="toc" aria-label="Contents">
+      <a href="#scope">Scope</a>
+      <a href="#collect">Information We Collect</a>
+      <a href="#use">How We Use Information</a>
+      <a href="#share">Sharing & Processors</a>
+      <a href="#ads">Analytics & Advertising</a>
+      <a href="#rights">Your Rights</a>
+      <a href="#kids">Children</a>
+      <a href="#security">Security</a>
+      <a href="#retention">Retention</a>
+      <a href="#changes">Changes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="scope">
+      <h2>Scope</h2>
+      <p>This policy applies to mobile and web titles developed and published by <strong>Dilip Ratadia</strong> ("we", "us"), including titles distributed via Google Play under an individual developer account. It covers apps, in‑game services, official websites, and any related features that link to or reference this page.</p>
+    </section>
+
+    <section id="collect">
+      <h2>Information We Collect</h2>
+      <h3>Information you provide</h3>
+      <ul>
+        <li>Support messages and email address when you contact us.</li>
+        <li>Optional profile or gameplay information if features require it (e.g., leaderboards, cloud save).</li>
+      </ul>
+      <h3>Information collected automatically</h3>
+      <ul>
+        <li>Device data (device model, OS version, language, country, time zone).</li>
+        <li>App data (app version, settings, crash logs, performance metrics).
+        </li>
+        <li>Gameplay telemetry (session length, progress, features used). We keep this minimal and aggregated whenever possible.</li>
+      </ul>
+      <p>Some platforms or SDKs may assign identifiers (e.g., IDFA/AAID) based on your consent and device settings.</p>
+    </section>
+
+    <section id="use">
+      <h2>How We Use Information</h2>
+      <ul>
+        <li>Operate and improve our titles and services.</li>
+        <li>Diagnose crashes and prevent fraud or abuse.</li>
+        <li>Understand feature usage to make informed design decisions.</li>
+        <li>Provide customer support and respond to requests.</li>
+        <li>Comply with legal obligations.</li>
+      </ul>
+    </section>
+
+    <section id="share">
+      <h2>Sharing & Processors</h2>
+      <p>We do <strong>not</strong> sell your personal information. We may share limited data with trusted service providers who help us operate features (for example, crash reporting, analytics, or cloud save). These processors are bound by contract to protect your data and use it only for our instructions.</p>
+      <p>Examples of processors we may use include: platform app stores, crash analytics, and optional sign‑in providers. The exact set may vary by title and platform.</p>
+    </section>
+
+    <section id="ads">
+      <h2>Analytics & Advertising</h2>
+      <p>Some titles may include privacy‑respecting analytics to improve stability and gameplay. Advertising, if present, will follow the platform’s consent framework (e.g., App Tracking Transparency on iOS). You can change ad tracking preferences in your device settings at any time.</p>
+      <p>If an app uses advertising, ad partners may use device identifiers and coarse location to deliver or limit ads, measure performance, and detect invalid traffic, according to your consent and platform rules.</p>
+    </section>
+
+    <section id="rights">
+      <h2>Your Rights</h2>
+      <p>Depending on your region (e.g., EEA/UK, California), you may have rights to access, correct, delete, or export personal data and to object or restrict certain processing. To exercise these rights, contact us using the details below. We will verify and respond within applicable legal timeframes.</p>
+    </section>
+
+    <section id="kids">
+      <h2>Children</h2>
+      <p>Our titles are intended for general audiences unless specifically labeled for children. We do not knowingly collect personal information from children under the age required by local law without appropriate parental consent. If you believe a child provided personal information to us, contact us and we will take appropriate action.</p>
+    </section>
+
+    <section id="security">
+      <h2>Security</h2>
+      <p>We use reasonable technical and organizational measures to protect information. No method of transmission or storage is 100% secure; we continually refine our safeguards as industry practices evolve.</p>
+    </section>
+
+    <section id="retention">
+      <h2>Retention</h2>
+      <p>We keep data only as long as necessary for the purposes described in this policy, for the life of the product, or as required by law. Aggregated and de‑identified analytics may be retained longer for trend analysis.</p>
+    </section>
+
+    <section id="changes">
+      <h2>Changes to This Policy</h2>
+      <p>We may update this page to reflect product, legal, or operational changes. Material updates will be highlighted here and the <em>Effective Date</em> will be revised.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>For privacy questions or requests, email: <a href="mailto:dilip.k.ratadia04@gmail.com" class="mono">dilip.k.ratadia04@gmail.com</a></p>
+      <p class="caps">Developer contact for Google Play listings.</p>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; <span class="mono" id="year"></span> Dilip Ratadia. All rights reserved.</p>
+    </footer>
+  </main>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
